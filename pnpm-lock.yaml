@@ -623,6 +623,9 @@ importers:
       tsconfig-resolver:
         specifier: ^3.0.1
         version: 3.0.1
+      ultrahtml:
+        specifier: ^1.3.0
+        version: 1.3.0
       undici:
         specifier: ^5.23.0
         version: 5.23.0
