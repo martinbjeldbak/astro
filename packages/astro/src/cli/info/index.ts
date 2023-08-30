@@ -1,6 +1,6 @@
+import { arch, platform } from 'node:os';
 /* eslint-disable no-console */
 import * as colors from 'kleur/colors';
-import { arch, platform } from 'node:os';
 import whichPm from 'which-pm';
 import type yargs from 'yargs-parser';
 import { resolveConfig } from '../../core/config/index.js';

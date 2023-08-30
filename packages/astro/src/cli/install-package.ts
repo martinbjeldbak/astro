@@ -1,7 +1,7 @@
+import { createRequire } from 'node:module';
 import boxen from 'boxen';
 import { execa } from 'execa';
 import { bold, cyan, dim, magenta } from 'kleur/colors';
-import { createRequire } from 'node:module';
 import ora from 'ora';
 import prompts from 'prompts';
 import whichPm from 'which-pm';

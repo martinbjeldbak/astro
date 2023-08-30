@@ -1,5 +1,5 @@
-import { productMap } from '../../../models/db';
 import type { APIContext } from 'astro';
+import { productMap } from '../../../models/db';
 
 export function get({ params }: APIContext) {
 	const id = Number(params.id);
