@@ -1,5 +1,11 @@
 # astro
 
+## 3.0.8
+
+### Patch Changes
+
+- [#8370](https://github.com/withastro/astro/pull/8370) [`06e7256b5`](https://github.com/withastro/astro/commit/06e7256b58682064cf7410f72658ce44507f639e) Thanks [@itsmatteomanf](https://github.com/itsmatteomanf)! - Removed extra curly brace.
+
 ## 3.0.7
 
 ### Patch Changes
