@@ -529,7 +529,7 @@ export const MissingImageDimension = {
 		`Missing ${
 			missingDimension === 'both' ? 'width and height attributes' : `${missingDimension} attribute`
 		} for ${imageURL}. When using remote images, both dimensions are always required in order to avoid CLS.`,
-	hint: 'If your image is inside your `src` folder, you probably meant to import it instead. See [the Imports guide for more information](https://docs.astro.build/en/guides/imports/#other-assets).',
+	hint: 'If your image is inside your `src` folder, you probably meant to import it instead. See https://docs.astro.build/en/guides/imports/#other-assets for more information.',
 } satisfies ErrorData;
 /**
  * @docs
